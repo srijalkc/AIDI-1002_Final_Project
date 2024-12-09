@@ -46,8 +46,12 @@ To run this code:
       - simply run "python inference.py modelcpnt5ba5d242-aaac-43cc-8593-e6f1d462faa8.keras ../data/validation/FA4DC2D8-C0D9-4ECB-A319-70F156E3AF31.bins"
       - please ensure you have provided the path accurately (this depends on where you are running the code from, but as long as you are running it from inside src directory, you should be fine)
     - If you want to create your own checkpoint file,
-      - you can delete the existing .keras file which is a model checkpoint file  
+      - you can delete the existing 
+        - modelcpnt5ba5d242-aaac-43cc-8593-e6f1d462faa8.keras file
+        - results.txt
+        - final_results.png
+        - /debug_plot directory  
       - then open jupyter notebook and run the "AIDI_1002_Final_Project.ipynb" file
-      - after it has completed all 100 epochs, you will have your own model checkpoint file.
+      - after it has completed all 100 epochs, you will have your own model checkpoint file, plots and results.txt file where you can see the results.
       - you can then use this file with command "python inference.py <path_to_checkpoint_file> ../data/validation/FA4DC2D8-C0D9-4ECB-A319-70F156E3AF31.bins" on python console to test it out. 
 
